@@ -1,9 +1,9 @@
 
-#include <ESP32httpUpdate.h>
-#include <ArduinoHttpClient.h>
+#include <ESP32httpUpdate.h>     //Matej sychra
+#include <ArduinoHttpClient.h>   //by Arduino
 #include <b64.h>
-#include <HttpClient.h>
-#include <LiquidCrystal.h>
+#include <HttpClient.h>   //by Arduino
+#include <LiquidCrystal.h>  //arduino
 #include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
 
 LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
